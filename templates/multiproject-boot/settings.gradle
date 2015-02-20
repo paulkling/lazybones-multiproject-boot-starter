@@ -1,0 +1,5 @@
+rootProject.name = "${name}"
+
+include "${name}-api"
+include "${name}-client"
+include "${name}-service"

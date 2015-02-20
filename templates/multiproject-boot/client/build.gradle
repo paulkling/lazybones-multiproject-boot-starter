@@ -1,0 +1,6 @@
+description = "${name} client"
+
+dependencies {
+	//add dependencies needed only by ${name}-client
+		
+}

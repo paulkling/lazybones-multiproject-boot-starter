@@ -1,0 +1,38 @@
+buildscript {
+
+}
+
+ext {
+	//put variables that are to be global
+}
+
+subprojects { subproject ->
+	group = "${group}"
+	version = "${version}"
+
+	apply plugin: "java"
+
+	repositories {
+    		mavenCentral()
+		//include any local repo's
+	}
+
+	compileJava {
+		sourceCompatibility=${javaversion}
+		targetCompatibility=${javaversion}
+		options.encoding='UTF-8'
+	}
+
+	dependencies {
+		//put dependencies wanted on all sub-projects
+	}
+}
+
+configure(rootProject) {
+	description = "${name} project"
+
+	dependencies {
+		//put dependencies needed to build, compile, test 
+
+	}
+}

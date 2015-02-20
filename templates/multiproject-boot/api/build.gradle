@@ -1,0 +1,8 @@
+description = "${name} api"
+
+dependencies {
+	compile(project(":${name}-client"))
+	compile(project(":${name}-service"))
+
+	//add dependencies needed only by ${name}-api
+}

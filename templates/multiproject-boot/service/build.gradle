@@ -1,0 +1,5 @@
+description = "${name} service"
+
+dependencies {
+	//add dependencies needed only by ${name}-service
+}
