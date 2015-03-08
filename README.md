@@ -1,6 +1,7 @@
 Lazybones template project
 --------------------------
 
+
 This depends on lazybones being installed into path
     download http://dl.bintray.com/pledbrook/lazybones-templates/#lazybones-0.8.zip
 
